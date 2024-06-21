@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vending Machine</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="js/vm.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="main-container">
+            <div class="mainbody">
+                <div class="grid">
+                    <img class="drink" src="img/drink1.png" alt="음료이미지" data-id="1">
+                    <img class="price" src="img/price800원.png" alt="가격800원">
+                    <img class="buybutton" src="img/비활성화버튼.png" alt="비활성화" data-price="800" data-id="1">
+                </div>
+                <div class="grid">
+                    <img class="drink" src="img/drink2.png" alt="음료이미지" data-id="2">
+                    <img class="price" src="img/price1200원.png" alt="가격1200원">
+                    <img class="buybutton" src="img/비활성화버튼.png" alt="비활성화" data-price="1200" data-id="2">
+                </div>
+                <div class="grid">
+                    <img class="drink" src="img/drink3.png" alt="음료이미지" data-id="3">
+                    <img class="price" src="img/price1000원.png" alt="가격1000원">
+                    <img class="buybutton" src="img/비활성화버튼.png" alt="비활성화" data-price="1000" data-id="3">
+                </div>
+                <div class="grid">
+                    <img class="drink" src="img/drink4.png" alt="음료이미지" data-id="4">
+                    <img class="price" src="img/price800원.png" alt="가격800원">
+                    <img class="buybutton" src="img/비활성화버튼.png" alt="비활성화" data-price="800" data-id="4">
+                </div>
+                <div class="grid">
+                    <img class="drink" src="img/drink5.png" alt="음료이미지" data-id="5">
+                    <img class="price" src="img/price800원.png" alt="가격800원">
+                    <img class="buybutton" src="img/비활성화버튼.png" alt="비활성화" data-price="800" data-id="5">
+                </div>
+                <div class="grid">
+                    <img class="drink" src="img/drink6.png" alt="음료이미지" data-id="6">
+                    <img class="price" src="img/price1500원.png" alt="가격1500원">
+                    <img class="buybutton" src="img/비활성화버튼.png" alt="비활성화" data-price="1500" data-id="6">
+                </div>
+                <div class="grid">
+                    <img class="drink" src="img/drink7.png" alt="음료이미지" data-id="7">
+                    <img class="price" src="img/price1500원.png" alt="가격1500원">
+                    <img class="buybutton" src="img/비활성화버튼.png" alt="비활성화" data-price="1500" data-id="7">
+                </div>
+                <div class="grid">
+                    <img class="drink" src="img/drink8.png" alt="음료이미지" data-id="8"> 
+                    <img class="price" src="img/price700원.png" alt="가격700원">
+                    <img class="buybutton" src="img/비활성화버튼.png" alt="비활성화" data-price="700" data-id="8">
+                </div>
+                <div class="grid">
+                    <img class="drink" src="img/drink9.png" alt="음료이미지" data-id="9">
+                    <img class="price" src="img/price700원.png" alt="가격700원">
+                    <img class="buybutton" src="img/비활성화버튼.png" alt="비활성화" data-price="700" data-id="9">
+                </div>
+                <div class="grid">
+                    <img class="drink" src="img/drink10.png" alt="음료이미지" data-id="10">
+                    <img class="price" src="img/price500원.png" alt="가격500원">
+                    <img class="buybutton" src="img/비활성화버튼.png" alt="비활성화" data-price="500" data-id="10">
+                </div>
+                <div class="grid">
+                    <img class="drink" src="img/drink11.png" alt="음료이미지" data-id="11">
+                    <img class="price" src="img/price1000원.png" alt="가격1000원">
+                    <img class="buybutton" src="img/비활성화버튼.png" alt="비활성화" data-price="1000" data-id="11">
+                </div>
+                <div class="grid">
+                    <img class="drink" src="img/drink12.png" alt="음료이미지" data-id="12">
+                    <img class="price" src="img/price700원.png" alt="가격700원">
+                    <img class="buybutton" src="img/비활성화버튼.png" alt="비활성화" data-price="700" data-id="12">
+                </div>
+                <div class="grid">
+                    <img class="drink" src="img/drink13.png" alt="음료이미지" data-id="13">
+                    <img class="price" src="img/price1500원.png" alt="가격1500원">
+                    <img class="buybutton" src="img/비활성화버튼.png" alt="비활성화" data-price="1500" data-id="13">
+                </div>
+                <div class="grid">
+                    <img class="drink" src="img/drink14.png" alt="음료이미지" data-id="14">
+                    <img class="price" src="img/price700원.png" alt="가격700원">
+                    <img class="buybutton" src="img/비활성화버튼.png" alt="비활성화" data-price="700" data-id="14">
+                </div>
+                <div class="grid">
+                    <img class="drink" src="img/drink15.png" alt="음료이미지" data-id="15">
+                    <img class="price" src="img/price500원.png" alt="가격500원">
+                    <img class="buybutton" src="img/비활성화버튼.png" alt="비활성화" data-price="500" data-id="15">
+                </div>
+            </div>
+            <div class="bottom-container">
+                <div class="mix-mode">
+                    <div class="mix-mode-select">
+                        <img id="drinkimg1" class="drinkimg" alt="drinkimg">
+                        <div class="choice1" data-choice="1">
+                            <button class="rate80">80%</button><br>
+                            <button class="rate60">60%</button><br>
+                            <button class="rate40">40%</button><br>
+                            <button class="rate20">20%</button><br>
+                            <button class="rate0">0%</button>
+                        </div>
+                        <img id="drinkimg2" class="drinkimg" alt="drinkimg">
+                        <div class="choice2" data-choice="2">
+                            <button class="rate80">80%</button><br>
+                            <button class="rate60">60%</button><br>
+                            <button class="rate40">40%</button><br>
+                            <button class="rate20">20%</button><br>
+                            <button class="rate0">0%</button>
+                        </div>
+                        <img id="drinkimg3" class="drinkimg" alt="drinkimg">
+                        <div class="choice3" data-choice="3">
+                            <button class="rate80">80%</button><br>
+                            <button class="rate60">60%</button><br>
+                            <button class="rate40">40%</button><br>
+                            <button class="rate20">20%</button><br>
+                            <button class="rate0">0%</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="result-select">
+                    <div class="dispenser">
+                        <div class="cover"></div>
+                    </div>
+                    <div class="mix-result">
+                        <div class="cup">
+                            <div class="cup-content"></div>
+                        </div>
+                        <button class="cupReset">리셋</button>
+                        <button class="cupFinish">확인</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sub-container">
+            <div class="Display">
+                <div class="glitch" data-text="판매중"></div>
+                <div class="calc" readonly type="text" name="result" data="">
+                    <div data-totalprice class="totalprice"></div>
+                    <div data-cardprice class="cardprice"></div>
+                    <div data-mixprice class="mixprice"></div>
+                </div>
+            </div>
+            <div class="card-reader">
+                <img class="cardimg" src="img/cardreader.jpg" alt="카드리더기">
+            </div>
+            <div class="keypad">
+                <button class="Pbutton" data-number="1">1</button>
+                <button class="Pbutton" data-number="2">2</button>
+                <button class="Pbutton" data-number="3">3</button>
+                <button class="Pbutton" data-number="4">4</button>
+                <button class="Pbutton" data-number="5">5</button>
+                <button class="Pbutton" data-number="6">6</button>
+                <button class="Pbutton" data-number="7">7</button>
+                <button class="Pbutton" data-number="8">8</button>
+                <button class="Pbutton" data-number="9">9</button>
+                <button class="Pbutton" data-value="cancel">취소</button>
+                <button class="Pbutton" data-number="0">0</button>
+                <button class="Pbutton" data-value="confirm">확인</button>
+            </div>
+            <img class="coin-reader" src="img/coinreader.png" alt="동전리더기">
+            <div class="cash-reader">
+                <div class="lid"></div>
+            </div>
+            <button class="mix-mode-button">혼합 모드</button>
+            <img class="refund-button" src="img/refundbutton.png" alt="잔돈반환버튼">
+            <div class="refund">
+                <div class="cover"></div>
+            </div>
+        </div>
+        <div class="money-container">
+            <img id="money100won" class="draggable" src="img/money100원.png" alt="100원" draggable="true" data-type="coin" data-amount="100">
+            <img id="money500won" class="draggable" src="img/money500원.png" alt="500원" draggable="true" data-type="coin" data-amount="500">
+            <img id="money1000won" class="draggable" src="img/money1000원.png" alt="1000원" draggable="true" data-type="cash" data-amount="1000">
+            <img id="money5000won" class="draggable" src="img/money5000원.png" alt="5000원" draggable="true" data-type="cash" data-amount="5000">
+            <img id="money10000won" class="draggable" src="img/money10000원.png" alt="10000원" draggable="true" data-type="cash" data-amount="10000">
+            <img id="money50000won" class="draggable" src="img/money50000원.png" alt="50000원" draggable="true" data-type="cash" data-amount="50000">
+            <img id="card" class="draggable" src="img/card.png" draggable="true" data-type="card">
+        </div>
+    </div>
+</body>
+</html>
